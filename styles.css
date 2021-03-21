@@ -1,0 +1,181 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+#title{
+    background-color: #5eaaa8;
+}
+#title-bar{
+    font-family: 'Fredoka One', cursive;
+    background-color: black;
+}
+#my-name{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #071a52;
+}
+#hi{
+    font-family: 'Handlee', cursive;
+}
+#name{
+    font-family: 'Kaushan Script', cursive;
+}
+#project-name{
+    text-align: center;
+    background-color: black;
+}
+#some-project{
+    line-height: 2;
+    margin-bottom: 0;
+    font-size: 2rem;
+}
+ul#left{
+    margin-left: auto;
+}
+#tindog{
+    background-color: #ff4c68;
+}
+#heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+}
+#pd{
+    padding: 0 15%;
+}
+nav#navbar{
+    padding: 0 0 4.5rem;
+}
+a#navbrand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+li#navitem{
+    padding: 0 18px;
+}
+button#download-button{
+    margin: 5% 3% 5% 0;
+}
+img#title-image{
+    width: 60%;
+    transform: rotate(25deg);
+    position: relative;
+    top: 15%;
+    left: 20%;
+}
+#features{
+    background-color: white;
+    text-align: center;
+    padding: 10%;
+    position: relative;
+    z-index: 1;
+}
+div h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+}
+#fpara{
+    color: #8f8f8f;
+}
+#ficon{
+    color: #ef8172;
+    font-size: 3.5rem;
+    margin-bottom: 5%;
+}
+#ficon:hover{
+    color: #ff4c68;
+}
+#fpad{
+    padding-right: 6%;
+    padding-left: 6%;
+    align-items: center;
+}
+#testimo{
+    text-align: center;
+    background-color: #ff4c68;
+    color: white;
+}
+#textimo-text{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    color: white;
+}
+#testimo-image{
+    border-radius: 50%;
+    margin: 20px;
+    width: 15%;
+}
+#press{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 3%;
+}
+#press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+#testimo-item{
+    padding: 7% 18%;
+}
+#pricing-container{
+    padding: 5% 10%;
+    text-align: center;
+}
+#pricing-button{
+    width: 100%;
+}
+#pricing-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+#pricing-para{
+    font-size: 1rem;
+    color: #8f8f8f;
+}
+
+#cta{
+    padding: 7% 15%;
+    background-color: #ff4c68;
+    text-align: center;
+}
+#cta-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 3.5rem;
+    color: white;
+}
+#cta-button{
+    margin: 5% 3% 5% 0;
+}
+#footer{
+    text-align: center;
+    background-color: white;
+    padding-top: 3%;
+}
+#fab-f{
+    font-size: 1.25rem;
+    margin: 1% 1%;
+    cursor: pointer;
+}
+#footer-para{
+    color: #8f8f8f;
+}
+
+@media (max-width:1110px){
+
+    #tindog{
+        text-align: center;
+    }
+
+    img#title-image{
+        position: static;
+        transform: rotate(0);
+    }
+    ul#left{
+        text-align: left;
+    }
+}
